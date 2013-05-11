@@ -39,10 +39,10 @@ $(call inherit-product, build/target/product/full.mk)
 
 # Boot ramdisk setup
 PRODUCT_COPY_FILES += \
-    device/htc/totemc2/ramdisk/fstab.tc2:root/fstab.tc2 \
-    device/htc/totemc2/ramdisk/init.tc2.rc:root/init.tc2.rc \
-    device/htc/totemc2/ramdisk/init.tc2.usb.rc:root/init.tc2.usb.rc \
-    device/htc/totemc2/ramdisk/ueventd.tc2.rc:root/ueventd.tc2.rc
+    device/htc/totemc2/ramdisk/fstab.mystul:root/fstab.mystul \
+    device/htc/totemc2/ramdisk/init.mystul.rc:root/init.mystul.rc \
+    device/htc/totemc2/ramdisk/init.mystul.usb.rc:root/init.mystul.usb.rc \
+    device/htc/totemc2/ramdisk/ueventd.mystul.rc:root/ueventd.mystul.rc
 
 # recovery and custom charging
 PRODUCT_COPY_FILES += \
