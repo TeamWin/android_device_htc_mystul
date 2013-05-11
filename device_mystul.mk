@@ -39,10 +39,10 @@ $(call inherit-product, build/target/product/full.mk)
 
 # Boot ramdisk setup
 PRODUCT_COPY_FILES += \
-    device/htc/mystul/ramdisk/fstab.mystul:root/fstab.mystul \
-    device/htc/mystul/ramdisk/init.mystul.rc:root/init.mystul.rc \
-    device/htc/mystul/ramdisk/init.mystul.usb.rc:root/init.mystul.usb.rc \
-    device/htc/mystul/ramdisk/ueventd.mystul.rc:root/ueventd.mystul.rc
+    device/htc/mystul/ramdisk/fstab.operaul:root/fstab.operaul \
+    device/htc/mystul/ramdisk/init.operaul.rc:root/init.operaul.rc \
+    device/htc/mystul/ramdisk/init.operaul.usb.rc:root/init.operaul.usb.rc \
+    device/htc/mystul/ramdisk/ueventd.operaul.rc:root/ueventd.operaul.rc
 
 # recovery and custom charging
 PRODUCT_COPY_FILES += \
