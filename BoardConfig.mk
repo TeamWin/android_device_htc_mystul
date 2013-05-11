@@ -62,7 +62,7 @@ BOARD_HAS_NO_SELECT_BUTTON := true
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_15x24.h\"
 
 TARGET_PREBUILT_KERNEL := device/htc/mystul/prebuilt/kernel
-TARGET_KERNEL_CONFIG := mystul_defconfig
+#TARGET_KERNEL_CONFIG := mystul_defconfig
 
 # Use libril in the device tree
 BOARD_PROVIDES_LIBRIL := true
